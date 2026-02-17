@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 class Solution {
-    public List<Integer> findDuplicates(int[] nums) {
+    public ArrayList<Integer> findDuplicates(int[] nums) {
         ArrayList<Integer> result = new ArrayList<>();
         int n =nums.length;             
         for(int i = 0;i<n;i++)
