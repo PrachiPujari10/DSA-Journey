@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution1 {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> set = new HashSet<>(wordDict);
         boolean[] dp = new boolean[s.length() + 1];
