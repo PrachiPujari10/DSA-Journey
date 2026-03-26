@@ -39,7 +39,7 @@ class Solution {
         int bigArea = (maxX - minX) * (maxY - minY);
         if (area != bigArea) return false;
         
-        // Check corners
+        
         if (set.size() != 4) return false;
         
         if (!set.contains(minX + " " + minY) ||
